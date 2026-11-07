@@ -1,0 +1,11 @@
+BOOKMARK NAME: Blacket V3 + BB
+
+BOOKMARK URL (copy the entire single line):
+javascript:(()=>{if(location.hostname!=='blacket.org'&&location.hostname!=='www.blacket.org'){alert('Open Blacket first, then tap this bookmark again.');return;}if(window.__bv3bbLoading){alert('V3 + BetterBlacket is already loading.');return;}window.__bv3bbLoading=true;const s=document.createElement('script');s.src='https://raw.githubusercontent.com/Devmaster124/Mods/main/Blacket_V3_BetterBlacket_Merged.user.js';s.onload=()=>{window.__bv3bbLoading=false;};s.onerror=()=>{window.__bv3bbLoading=false;alert('Could not load the merged script. Make sure the file has been uploaded to your Mods GitHub repository.');};(document.head||document.documentElement).appendChild(s);})();
+
+IMPORTANT:
+Upload Blacket_V3_BetterBlacket_Merged.user.js to:
+Devmaster124/Mods
+at the repository root, using that exact filename.
+
+Then add/edit a Safari bookmark, replace its URL with the bookmark URL above, save, reload Blacket, and tap the bookmark.
